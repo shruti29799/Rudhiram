@@ -1,0 +1,248 @@
+
+/*.homepage img
+{
+ width: 1166px;
+ background-image: cover;
+ opacity: 0.6;
+}
+/*@keyframes p
+{ 
+    from
+    {
+        background-color:rgb(255, 230, 0);
+    }
+     to
+     {
+         background-color:rgba(255, 8, 0, 0.745);
+        }
+    }
+    p{
+        padding: 0px 2px 0px 2px;
+        border-radius: 2px;
+        width: 130px;
+        height: 20px;
+        animation-name: p;
+        animation-duration: 10s;
+    }
+    .navbar2 p
+    {
+        font-size: 17px;
+        font-weight: lighter;
+
+    }*/
+/*h1
+{
+  padding: 10px 400px 10px 440px;
+   font-family: cursive;
+   font-style: oblique;
+   background-color:#dd0303; 
+   border-radius: 3px;
+}
+button
+{
+    background-color:#dd0303; 
+    border-radius: 2px;
+    border: rgb(235, 135, 135);
+    border-style: double;
+    padding: 5px 20px 5px 20px;
+    position: absolute;
+    top: 380px;
+    left: 20px;
+    font-weight: bold;
+}
+.navbar2
+{
+    padding: 2px 20px 2px 20px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.email
+{
+    float: left;
+}
+.fb
+{
+    float: right;
+    margin: 0px 5px 0px 5px;
+}
+.twi
+{
+    float: right;
+    margin: 0px 5px 0px 5px;
+}
+.insta
+{
+    float: right;
+    margin: 0px 5px 0px 5px;
+    
+}
+.google
+{
+    float: right;
+    margin: 0px 5px 0px 5px;
+    
+}
+.navbar
+{
+   padding: 20px 10px 20px 10px;
+}
+.homepage b{
+   position: absolute;
+   top: 260px;
+   left: 20px;
+   font-size: 45px;
+   color: #d80202;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+::selection{
+  color: #000;
+  background: #fff;
+}
+nav{
+  position: fixed;
+  background: #1b1b1b;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+}
+.img{
+  background: url('HOMEPAGE.jpg')no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(199, 181, 181, 0.4);
+}
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  color: rgb(0, 0, 0);
+  font-size: 55px;
+  font-weight: 600;
+  font-style: italic;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+.center .sub_title{
+  color: #fff;
+  font-size: 52px;
+  font-weight: 600;
+}
+.center .btns{
+  margin-top: 20px;
+}
+.center .btns button{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.center .btns button:first-child{
+  color: rgb(63, 60, 60);
+  background: none;
+}
+.btns button:first-child:hover{
+  background: rgb(226, 211, 211);
+  color: black;
+}
+.center .btns button:last-child{
+  background: white;
+  color: black;
+}
+.btns a{
+    
+    color: black;
+  }
+
+.email
+{
+    float: left;
+}
+.fb
+{
+    float: right;
+    margin: 0px 5px 0px 5px;
+
+}
+.twi
+{
+    float: right;
+    margin: 0px 5px 0px 5px;
+}
+.insta
+{
+    float: right;
+    margin: 0px 5px 0px 5px;
+    
+}
+.google
+{
+    float: right;
+    margin: 0px 5px 0px 5px;
+}
